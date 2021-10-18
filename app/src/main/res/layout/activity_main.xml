@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/companyNameTv"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@id/imageView"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/MobilenameTv"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@id/companyNameTv"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/screenSizeTv"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@id/MobilenameTv"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:id="@+id/batteryTv"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@id/screenSizeTv"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:id="@+id/ramTv"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@id/batteryTv"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
